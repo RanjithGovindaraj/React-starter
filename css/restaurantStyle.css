@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    font-family: sans-serif;    
+}
+
+.image{
+    height: 250px;
+    width: 100%;
+}
+.content-bg{
+    display: flex;
+}
+
+.content-align{
+    margin: 0 auto;
+    width: 80%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content-child{
+    border-bottom: 1px solid lightgray;
+    flex-grow: 1;
+    align-items: center ;
+    margin-left: 20px;
+}
+
+.reviews{
+    float: right;
+}
